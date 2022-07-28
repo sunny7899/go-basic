@@ -1,3 +1,4 @@
+Go will be the server language
 https://golang.org/doc/
 
 go version
