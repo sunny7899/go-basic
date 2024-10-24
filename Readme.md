@@ -46,6 +46,7 @@ Initialize your Go module using:
 
 ```bash
 go mod init [module-path]
+go mod init hello
 ```
 
 ### Adding Packages
