@@ -44,7 +44,9 @@ Go code is grouped into **packages**, and packages are grouped into **modules**.
 
 Initialize your Go module using:
 
-```bash
+```bash 
+go env -w GO111MODULE=on    ##  need to set, so as to init or install modules..
+
 go mod init [module-path]
 go mod init hello
 ```
