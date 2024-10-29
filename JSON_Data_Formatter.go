@@ -38,3 +38,28 @@ func main() {
 	fmt.Println("Formatted JSON:")
 	fmt.Println(output)
 }
+
+
+// SAMPLE INPUT OUTPUT AND EXPLANATION
+// ---
+// JSON Formatter Example
+// Input:
+// {"name":"John","age":30,"city":"New York","skills":["Go","Python","JavaScript"]}
+
+
+// Output:
+
+// {
+//   "name": "John",
+//   "age": 30,
+//   "city": "New York",
+//   "skills": [
+//     "Go",
+//     "Python",
+//     "JavaScript"
+//   ]
+// }
+
+// Explanation:
+// -Input: A single-line JSON string with no formatting.
+// -Output: The JSON formatted with indentation and line breaks, making it easy to read.
