@@ -111,3 +111,22 @@ func main() {
 
 	fmt.Println("Generated Password:", password)
 }
+
+
+
+// SAMPLE INPUT OUTPUT AND EXPLANATION
+
+// Sample Input:
+// Password length: 12
+// Include uppercase letters: true
+// Include numbers: true
+// Include special characters: true
+
+
+// Sample Output:
+// Generated Password: G9@bC2!qP$e1
+
+
+// Explanation:
+// Input: The desired length and character options for the password.
+// Output: A random, secure password containing uppercase letters, numbers, and special characters, based on the specified criteria.
